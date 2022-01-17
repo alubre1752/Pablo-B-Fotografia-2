@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inicio</title>
+	<link rel="stylesheet" href="estilo2.css">
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+					<header id="header">
+						<h1>Pablo Breva Fotografía</h1>
+						<p><a href="fotos.html">Fotos</a> &nbsp;&bull;&nbsp;<a href="precios.html">Precios</a> &nbsp;&bull;&nbsp;<a href="contacto.html">Contacto</a></p>
+						
+					</header>
+
+					<footer id="footer">
+						<span class="copyright">&copy; Pablo Breva Fotogrfía
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html> 
